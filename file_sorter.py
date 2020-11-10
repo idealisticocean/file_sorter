@@ -100,7 +100,7 @@ videos_path_check = path.exists(videos_dir)
 if videos_path_check == False:
     os.mkdir(videos_dir)        
 
-##Runs all three functions once every 15 seconds
+##Runs all three functions once every second
 while True:            
     audio_check()
     images_check()
